@@ -6,7 +6,7 @@ export default function AdminDashboard() {
   return (
     <SidebarProvider>
       <AppSidebar />
-      <main className="pl-3">
+      <main className="pl-3 w-full bg-gray-100">
         <SidebarTrigger />
         <Outlet />
       </main>
